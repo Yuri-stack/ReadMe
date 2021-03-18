@@ -104,6 +104,6 @@ $ npm run start
 ## License
 
 Released in 2021. 
-This project is under the [MIT license]().
+This project is under the [MIT license](https://github.com/Yuri-stack/ReadMe/blob/main/LICENSE).
 
 Made with love by [Yuri Oliveira](https://github.com/Yuri-stack) 🚀.
