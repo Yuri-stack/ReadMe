@@ -61,6 +61,7 @@
 <b> You must have already installed </b>
 - <a href="https://nodejs.org/en/download/"> Node.JS </a>
 - Package manager (NPM or Yarn)
+- Postgresql
 
 <b> Recommendations </b>
 
@@ -71,15 +72,18 @@
 
 ``` bash
 ## Clone the repository
-$ git clone https://github.com/Yuri-stack/NLW4_MoveIt
+$ git clone https://github.com/Yuri-stack/Launchstore.git
 
 ## Access the project folder at the command prompt
-$ cd moveit
+$ cd launchstore
 
 ## Install the dependencies
 yarn install
 or
 $ npm install
+
+## Create the database
+$ run the file diagram.sql
 
 ## Getting Started
 $ yarn start
@@ -93,6 +97,8 @@ $ npm run start
 - [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
 - [React Native](https://reactnative.dev/)
+- [Javascript](https://www.javascript.com/)
+- [Nunjucks](https://mozilla.github.io/nunjucks/)
 - [TypeScript](https://www.typescriptlang.org/)
 
 ## Translations
