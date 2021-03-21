@@ -34,6 +34,7 @@
 <!--ts-->
    * [About](#about)
    * [Features](#features)
+   * [Revised Concepts](#revised-concepts)
    * [Get Started](#get-started)
    * [Technologies](#technologies)
    * [Translations](#translations)
@@ -56,6 +57,11 @@
 - 👀 New challenges to exercise your eyes and body.
 - 🎮 User earns XP for every challenge completed.
 - 🆙 Stay motivated after each level as you advance.
+
+## Revised Concepts
+
+- ❌ Blocking routes for users unregistered.
+- 🌐 Global Variables.
 
 ## Get Started
 <b> You must have already installed </b>
