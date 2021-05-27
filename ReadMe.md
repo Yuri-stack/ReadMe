@@ -1,5 +1,5 @@
 <h1  align="center">
-    <br><img  src="public/images/logo.png"  alt="Logo"  width="480"><br><br>
+    <br><img src="github/assets/logo-full.svg" alt="Logo" width="480"><br><br>
     LaunchStore
 </h1>
 
@@ -21,7 +21,7 @@
 </div>
 
 <p  align="center">
-    <img  src="public/images/home.png"  alt="Home"  width="480">
+    <img src="github/assets/home.png" alt="Home" width="480">
 </p>
 
 ## Table of Contents
