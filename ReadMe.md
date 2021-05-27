@@ -1,68 +1,30 @@
 <h1  align="center">
-
-<br>
-
-<img  src="public/images/logo.png"  alt="Logo"  width="480">
-
-<br>
-
-<br>
-
-LaunchStore
-
+    <br><img  src="public/images/logo.png"  alt="Logo"  width="480"><br><br>
+    LaunchStore
 </h1>
 
-  
-
 <div>
-
-  
-
-<p  align="center">
-
-<a  href="https://www.linkedin.com/in/yuri-silva99/"  target="_blank">
-
-<img  src="https://img.shields.io/static/v1?label=Author&message=Yuri&color=00ff99&style=for-the-badge&logo=LinkedIn"  alt="Author: Yuri">
-
-</a>
-
-<a  href="#">
-
-<img  src="https://img.shields.io/static/v1?label=Language&message=Javascript&color=yellow&style=for-the-badge&logo=JavaScript"  alt="Language: Javascript">
-
-</a>
-
-<a  href="#">
-
-<img  src="https://img.shields.io/static/v1?label=Template&message=Nunjucks&color=green&style=for-the-badge&logo=Ghost"  alt="Language: Nunjucks">
-
-</a>
-
-<a  href="#">
-
-<img  src="https://img.shields.io/static/v1?label=Language&message=CSS&color=blue&style=for-the-badge&logo=CSS3"  alt="Language: CSS">
-
-</a>
-
-</p>
-
-  
-
+    <p  align="center">
+        <a  href="https://www.linkedin.com/in/yuri-silva99/"  target="_blank">
+            <img  src="https://img.shields.io/static/v1?label=Author&message=Yuri&color=00ff99&style=for-the-badge&logo=LinkedIn"  alt="Author: Yuri">
+        </a>
+        <a  href="#">
+            <img  src="https://img.shields.io/static/v1?label=Language&message=Javascript&color=yellow&style=for-the-badge&logo=JavaScript"  alt="Language: Javascript">
+        </a>
+        <a  href="#">
+            <img  src="https://img.shields.io/static/v1?label=Template&message=Nunjucks&color=green&style=for-the-badge&logo=Ghost"  alt="Language: Nunjucks">
+        </a>
+        <a  href="#">
+            <img  src="https://img.shields.io/static/v1?label=Language&message=CSS&color=blue&style=for-the-badge&logo=CSS3"  alt="Language: CSS">
+        </a>
+    </p>
 </div>
 
-  
-
 <p  align="center">
-
-<img  src="public/images/home.png"  alt="Home"  width="480">
-
+    <img  src="public/images/home.png"  alt="Home"  width="480">
 </p>
 
-  
-
 ## Table of Contents
-
-  
 
 <!--ts-->
 
@@ -82,8 +44,6 @@ LaunchStore
 
 <!--te-->
 
-  
-
 ## About
 <div>
 
@@ -94,7 +54,6 @@ LaunchStore is a project developed to create an application to manage a virtual 
 </p>
 
 </div>
- 
 
 ## Features
 
