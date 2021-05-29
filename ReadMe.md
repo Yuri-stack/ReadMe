@@ -1,31 +1,25 @@
-<h1  align="center">
-    <br><img src="github/assets/logo-full.svg" alt="Logo" width="480"><br><br>
-    LaunchStore
+<h1  align="center"><br>
+<img  src="https://spring.io/images/spring-logo-9146a4d3298760c2e7e49595184e1975.svg"  alt="Logo"  width="480">
+<br>
+<br>
+Bookstore API Manager
 </h1>
-
 <div>
-    <p  align="center">
-        <a  href="https://www.linkedin.com/in/yuri-silva99/"  target="_blank">
-            <img  src="https://img.shields.io/static/v1?label=Author&message=Yuri&color=00ff99&style=for-the-badge&logo=LinkedIn"  alt="Author: Yuri">
-        </a>
-        <a  href="#">
-            <img  src="https://img.shields.io/static/v1?label=Language&message=Javascript&color=yellow&style=for-the-badge&logo=JavaScript"  alt="Language: Javascript">
-        </a>
-        <a  href="#">
-            <img  src="https://img.shields.io/static/v1?label=Template&message=Nunjucks&color=green&style=for-the-badge&logo=Ghost"  alt="Language: Nunjucks">
-        </a>
-        <a  href="#">
-            <img  src="https://img.shields.io/static/v1?label=Language&message=CSS&color=blue&style=for-the-badge&logo=CSS3"  alt="Language: CSS">
-        </a>
-    </p>
-</div>
 
 <p  align="center">
-    <img src="github/assets/home.png" alt="Home" width="480">
+<a  href="https://www.linkedin.com/in/yuri-silva99/"  target="_blank">
+<img  src="https://img.shields.io/static/v1?label=Author&message=Yuri&color=00ff99&style=for-the-badge&logo=LinkedIn"  alt="Author: Yuri">
+</a>
+<a  href="#">
+<img  src="https://img.shields.io/static/v1?label=Language&message=Java&color=red&style=for-the-badge&logo=Java"  alt="Language: Java">
+</a>
+<a  href="#">
+<img  src="https://img.shields.io/static/v1?label=Framework&message=Springboot&color=green&style=for-the-badge&logo=Ghost"  alt="Language: Nunjucks">
+</a>
 </p>
+</div> 
 
 ## Table of Contents
-
 <!--ts-->
 
 * [About](#about)
@@ -34,9 +28,9 @@
 
 * [Revised Concepts](#revised-concepts)
 
-* [Installation](#installation)
+* [Installation](#Installation)
 
-* [Getting Started](#getting-started)
+* [Get Started](#get-started)
 
 * [Technologies](#technologies)
 
@@ -48,95 +42,63 @@
 <div>
 
 <p  align="center">
-
-LaunchStore is a project developed to create an application to manage a virtual store, with administration of the product and user registration areas. Made with Express, Nunjucks, CSS and PostGres.
-
+The objective of the Bookstore API Manager project is to provide an API for registering books in a bookstore through a REST API.
 </p>
 
 </div>
+ 
 
 ## Features
 
-- 🎁 Buy and sell various products.
+- 💻 Book Registration Manager📚
 
-- 🆙 Through an administrative platform, manage users and their products.
-
-- 💻 Login and Logout of users.
 
 ## Revised Concepts
 
-- ❌ Blocking routes for users unregistered.
+- 🌱 Initial project setup with Spring Boot Initialzr.
 
-- 🌐 Global Variables.
+- 💽 Creation of data model for mapping entities into databases.
 
-- 🖼️ Multer to upload images
-
-- 🔑 Bcrypt for passwords
-
-- 📧 Nodemailer
+- 📚 Development of book management operations (Register, reading by ID, reading all books)
 
 ## Installation
 
 **You must have already installed**
 
-- <a  href="https://nodejs.org/en/download/"> Node.JS </a>
+- <a  href="https://www.eclipse.org/"> Eclipse </a>
+- <a  href="https://www.postman.com/downloads/"> Postman</a>
 
-- <a  href="https://www.postgresql.org/"> Postgresql </a>
+*You can use other IDE or other requisition tool*
 
-**Let's divide it into 4 steps.**
+**Let's divide it into 2 steps.**
 
 1. Clone this repository
 2. Install dependencies
-3. Create database
-4. Feed the database
-
   ---
 #### 1. Clone this repository
 ```
-$ git clone https://github.com/Yuri-stack/Launchstore.git
+$ git clone https://github.com/Yuri-stack/BookStore
 ```
 ---
-#### 2. Install the dependencies
+### 2. Install the dependencies
 
-1.  Run the code below
-```
-npm install
-```
-*Make sure your internet is stable, as this may take a while*
+Have Maven installed on your machine to manage dependencies
 
-  ---
-#### 3. Create the database
-  
-1.  Run the code below in your project's main directory.
-```
-npm run createdatabase
-```
-2. The following `Postgres user` message will appear. Enter your Postgres username
-3. `Password for user postgres:` will appear twice. Type your database password and hit enter.
-4. **Important**: You will need to have the `psql` variable in your machine's environment variables.
-
----
-#### 4. Feed the database
-1. First, check that your `src / config / db.js` file has the correct credentials for your Postgres.
-2. Run the code below in your project's main directory.
-```node seed.js```
-3. **Inportant Information:** All fictional users have the password `1111`
+*Make sure your internet is stable, as this may take a while* 
 
 ## Getting Started
 
 1. Run the code below in your project's main directory.
 ```
-npm run start
+mvn spring-boot:run
 ```
-2. Now, open your browser and navigate to: http://localhost:5000
+2. Now, open your browser and navigate to: http://localhost:8080/api/v1/books
 
 ## Technologies
 
-- [Javascript](https://www.javascript.com/)
+- [Java](https://pt.wikipedia.org/wiki/Java_(linguagem_de_programa%C3%A7%C3%A3o))
 
-- [Nunjucks](https://mozilla.github.io/nunjucks/)
-
-- [Node.js](https://nodejs.org/en/)
+- [Spring Boot](https://spring.io/projects/spring-boot)
 
 ## License
 
