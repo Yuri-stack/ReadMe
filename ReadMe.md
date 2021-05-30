@@ -1,58 +1,44 @@
 <h1  align="center">
-    <br><img src="github/assets/logo-full.svg" alt="Logo" width="480"><br><br>
-    LaunchStore
+  <br><img  src="https://github.com/Yuri-stack/Launchstore/blob/main/public/images/logo.png"  alt="Logo"  width="480"><br><br>
+  LaunchStore
 </h1>
 
 <div>
-    <p  align="center">
-        <a  href="https://www.linkedin.com/in/yuri-silva99/"  target="_blank">
-            <img  src="https://img.shields.io/static/v1?label=Author&message=Yuri&color=00ff99&style=for-the-badge&logo=LinkedIn"  alt="Author: Yuri">
-        </a>
-        <a  href="#">
-            <img  src="https://img.shields.io/static/v1?label=Language&message=Javascript&color=yellow&style=for-the-badge&logo=JavaScript"  alt="Language: Javascript">
-        </a>
-        <a  href="#">
-            <img  src="https://img.shields.io/static/v1?label=Template&message=Nunjucks&color=green&style=for-the-badge&logo=Ghost"  alt="Language: Nunjucks">
-        </a>
-        <a  href="#">
-            <img  src="https://img.shields.io/static/v1?label=Language&message=CSS&color=blue&style=for-the-badge&logo=CSS3"  alt="Language: CSS">
-        </a>
-    </p>
+  <p  align="center">
+    <a  href="https://www.linkedin.com/in/yuri-silva99/"  target="_blank">
+      <img  src="https://img.shields.io/static/v1?label=Author&message=Yuri&color=00ff99&style=for-the-badge&logo=LinkedIn"  alt="Author: Yuri">
+    </a>
+    <a  href="#">
+      <img  src="https://img.shields.io/static/v1?label=Language&message=Javascript&color=yellow&style=for-the-badge&logo=JavaScript"  alt="Language: Javascript">
+    </a>
+    <a  href="#">
+      <img  src="https://img.shields.io/static/v1?label=Template&message=Nunjucks&color=green&style=for-the-badge&logo=Ghost"  alt="Language: Nunjucks">
+    </a>
+    <a  href="#">
+      <img  src="https://img.shields.io/static/v1?label=Language&message=CSS&color=blue&style=for-the-badge&logo=CSS3"  alt="Language: CSS">
+    </a>
+  </p>
 </div>
 
-<p  align="center">
-    <img src="github/assets/home.png" alt="Home" width="480">
-</p>
+<p  align="center"><img  src="https://github.com/Yuri-stack/Launchstore/blob/main/public/images/home.png"  alt="Home"  width="480"></p>
 
 ## Table of Contents
 
-<!--ts-->
-
-* [About](#about)
-
-* [Features](#features)
-
-* [Revised Concepts](#revised-concepts)
-
-* [Installation](#installation)
-
-* [Getting Started](#getting-started)
-
-* [Technologies](#technologies)
-
-* [License](#license)
-
-<!--te-->
+<p align="center">
+ <a href="#about">About</a> •
+ <a href="#features">Features</a> •
+ <a href="#revised-concepts">Revised Concepts</a> • 
+ <a href="#installation">Installation</a> • 
+ <a href="#getting-started">Getting Started</a> • 
+ <a href="#technologies">Technologies</a> • 
+ <a href="#license">License</a>
+</p>
 
 ## About
 <div>
-
-<p  align="center">
-
-LaunchStore is a project developed to create an application to manage a virtual store, with administration of the product and user registration areas. Made with Express, Nunjucks, CSS and PostGres.
-
-</p>
-
+  <p  align="center">
+    LaunchStore is a project developed to create an application to manage a virtual store, with administration of the product and user registration areas. Made with Express, Nunjucks, CSS and PostGres.
+  </p>
 </div>
 
 ## Features
@@ -91,12 +77,12 @@ LaunchStore is a project developed to create an application to manage a virtual 
 4. Feed the database
 
   ---
-#### 1. Clone this repository
+### 1. Clone this repository
 ```
 $ git clone https://github.com/Yuri-stack/Launchstore.git
 ```
 ---
-#### 2. Install the dependencies
+### 2. Install the dependencies
 
 1.  Run the code below
 ```
@@ -105,7 +91,7 @@ npm install
 *Make sure your internet is stable, as this may take a while*
 
   ---
-#### 3. Create the database
+  ### 3. Create the database
   
 1.  Run the code below in your project's main directory.
 ```
@@ -116,7 +102,7 @@ npm run createdatabase
 4. **Important**: You will need to have the `psql` variable in your machine's environment variables.
 
 ---
-#### 4. Feed the database
+### 4. Feed the database
 1. First, check that your `src / config / db.js` file has the correct credentials for your Postgres.
 2. Run the code below in your project's main directory.
 ```node seed.js```
