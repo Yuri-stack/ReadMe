@@ -34,14 +34,14 @@
  <a href="#license">License</a>
 </p>
 
-## About
+## 📌 About
 <div>
   <p  align="center">
     LaunchStore is a project developed to create an application to manage a virtual store, with administration of the product and user registration areas. Made with Express, Nunjucks, CSS and PostGres.
   </p>
 </div>
 
-## Features
+## 🚀 Features
 
 - 🎁 Buy and sell various products.
 
@@ -49,7 +49,7 @@
 
 - 💻 Login and Logout of users.
 
-## Revised Concepts
+## 👓 Revised Concepts
 
 - ❌ Blocking routes for users unregistered.
 
@@ -61,7 +61,7 @@
 
 - 📧 Nodemailer
 
-## Installation
+## 📕 Installation
 
 **You must have already installed**
 
@@ -108,7 +108,7 @@ npm run createdatabase
 ```node seed.js```
 3. **Inportant Information:** All fictional users have the password `1111`
 
-## Getting Started
+## 🎮 Getting Started
 
 1. Run the code below in your project's main directory.
 ```
@@ -116,7 +116,7 @@ npm run start
 ```
 2. Now, open your browser and navigate to: http://localhost:5000
 
-## Technologies
+## 🌐 Technologies
 
 - [Javascript](https://www.javascript.com/)
 
@@ -124,10 +124,10 @@ npm run start
 
 - [Node.js](https://nodejs.org/en/)
 
-## License
+## 📝 License
 
 Released in 2021.
 
 This project is under the [MIT license](https://github.com/Yuri-stack/ReadMe/blob/main/LICENSE).
 
-Made with love by [Yuri Oliveira](https://github.com/Yuri-stack) 🚀.
+Made with love by [Yuri Oliveira](https://www.linkedin.com/in/yuri-silva99/) 🚀.
