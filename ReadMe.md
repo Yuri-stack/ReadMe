@@ -1,74 +1,74 @@
-<h1  align="center"><br>
-<img  src="https://spring.io/images/spring-logo-9146a4d3298760c2e7e49595184e1975.svg"  alt="Logo"  width="480">
-<br>
-<br>
-Bookstore API Manager
+<h1 align="center">
+<br><img  src="https://raw.githubusercontent.com/Yuri-stack/NLW5_Podcastr/993c4592f05c84be0ed21e7266a3919da2817b3d/public/logo.svg"  alt="Logo"  width="480"><br><br>
+Podcastr
 </h1>
-<div>
 
-<p  align="center">
-<a  href="https://www.linkedin.com/in/yuri-silva99/"  target="_blank">
-<img  src="https://img.shields.io/static/v1?label=Author&message=Yuri&color=00ff99&style=for-the-badge&logo=LinkedIn"  alt="Author: Yuri">
-</a>
-<a  href="#">
-<img  src="https://img.shields.io/static/v1?label=Language&message=Java&color=red&style=for-the-badge&logo=Java"  alt="Language: Java">
-</a>
-<a  href="#">
-<img  src="https://img.shields.io/static/v1?label=Framework&message=Springboot&color=green&style=for-the-badge&logo=Ghost"  alt="Language: Nunjucks">
-</a>
+<div>
+<p align="center">
+    <a href="https://www.linkedin.com/in/yuri-silva99/" target="_blank">
+        <img src="https://img.shields.io/static/v1?label=Author&message=Yuri&color=00ff99&style=for-the-badge&logo=LinkedIn" alt="Author: Yuri">
+    </a>
+    <a href="#">
+        <img src="https://img.shields.io/static/v1?label=Language&message=Typescript&color=blue&style=for-the-badge&logo=Typescript" alt="Language: Typescript">
+    </a>
+    <a href="#">
+        <img src="https://img.shields.io/static/v1?label=Language&message=Javascript&color=yellow&style=for-the-badge&logo=JavaScript" alt="Language: Javascript">
+    </a>
+    <a href="#">
+        <img src="https://img.shields.io/static/v1?label=Language&message=SASS&color=ff69b4&style=for-the-badge&logo=SASS" alt="Language: SASS">
+    </a>
 </p>
-</div> 
+
+</div>
 
 ## Table of Contents
-<!--ts-->
 
-* [About](#about)
+<p align="center">
+ <a href="#about">About</a> •
+ <a href="#features">Features</a> •
+ <a href="#revised-concepts">Revised Concepts</a> • 
+ <a href="#installation">Installation</a> • 
+ <a href="#getting-started">Get Started</a> • 
+ <a href="#technologies">Technologies</a> • 
+ <a href="#license">License</a>
+</p>
 
-* [Features](#features)
-
-* [Revised Concepts](#revised-concepts)
-
-* [Installation](#Installation)
-
-* [Get Started](#get-started)
-
-* [Technologies](#technologies)
-
-* [License](#license)
-
-<!--te-->
-
-## About
+## 📌 About
 <div>
 
 <p  align="center">
-The objective of the Bookstore API Manager project is to provide an API for registering books in a bookstore through a REST API.
+Podcastr is a project developed during the 5th edition of Rocketseat's Next Level Week. This week we created a web application to listen to Rocketseat Podcasts.
 </p>
 
 </div>
  
 
-## Features
+## 🚀Features
 
-- 💻 Book Registration Manager📚
+- Play podcast
+- Podcasts in Playlist
+- Select a podcast to listen to
+- Forward, Return, Loop and Random Options
 
 
-## Revised Concepts
+## 👓 Revised Concepts
 
-- 🌱 Initial project setup with Spring Boot Initialzr.
+- Building pages of React
+- Server-side rendering and generation of static sites for web applications with NextJs
 
-- 💽 Creation of data model for mapping entities into databases.
+- Typing JS with Typescript
 
-- 📚 Development of book management operations (Register, reading by ID, reading all books)
+- Styling the app with Sass
 
-## Installation
+## 📕 Installation
 
 **You must have already installed**
+- [Node.js](https://nodejs.org/en/)
+- [Npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
 
-- <a  href="https://www.eclipse.org/"> Eclipse </a>
-- <a  href="https://www.postman.com/downloads/"> Postman</a>
-
-*You can use other IDE or other requisition tool*
+**Recommendations**
+-   It is recommended that you have installed Google Chrome
+-   I recommend using VSCode as development IDE
 
 **Let's divide it into 2 steps.**
 
@@ -77,30 +77,40 @@ The objective of the Bookstore API Manager project is to provide an API for regi
   ---
 #### 1. Clone this repository
 ```
-$ git clone https://github.com/Yuri-stack/BookStore
+$ git clone https://github.com/Yuri-stack/NLW5_Podcastr
 ```
 ---
 ### 2. Install the dependencies
-
-Have Maven installed on your machine to manage dependencies
+```
+$ npm install
+```
+or
+```
+$ yarn
+```
 
 *Make sure your internet is stable, as this may take a while* 
 
-## Getting Started
+## 🎮 Getting Started
 
-1. Run the code below in your project's main directory.
+1. Run the backend fake server
 ```
-mvn spring-boot:run
+$ yarn server
 ```
-2. Now, open your browser and navigate to: http://localhost:8080/api/v1/books
+2. Run the web server
+```
+$ yarn dev
+```
+3. Now, open your browser and navigate to: http://localhost:3000
 
-## Technologies
+## 🌐 Technologies
 
-- [Java](https://pt.wikipedia.org/wiki/Java_(linguagem_de_programa%C3%A7%C3%A3o))
+- [React ](https://reactjs.org/)
+- [Next.js ](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Sass](https://sass-lang.com/)
 
-- [Spring Boot](https://spring.io/projects/spring-boot)
-
-## License
+## 📝 License
 
 Released in 2021.
 
