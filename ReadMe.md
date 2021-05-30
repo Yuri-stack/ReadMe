@@ -20,23 +20,16 @@ Bookstore API Manager
 </div> 
 
 ## Table of Contents
-<!--ts-->
 
-* [About](#about)
-
-* [Features](#features)
-
-* [Revised Concepts](#revised-concepts)
-
-* [Installation](#Installation)
-
-* [Get Started](#get-started)
-
-* [Technologies](#technologies)
-
-* [License](#license)
-
-<!--te-->
+<p align="center">
+ <a href="#about">About</a> •
+ <a href="#features">Features</a> •
+ <a href="#revised-concepts">Revised Concepts</a> • 
+ <a href="#installation">Installation</a> • 
+ <a href="#getting-started">Get Started</a> • 
+ <a href="#technologies">Technologies</a> • 
+ <a href="#license">License</a>
+</p>
 
 ## About
 <div>
@@ -104,6 +97,6 @@ mvn spring-boot:run
 
 Released in 2021.
 
-This project is under the [MIT license](https://github.com/Yuri-stack/ReadMe/blob/main/LICENSE).
+This project is under the [MIT license](https://github.com/Yuri-stack/BookStore/blob/main/LICENSE).
 
 Made with love by [Yuri Oliveira](https://github.com/Yuri-stack) 🚀.
