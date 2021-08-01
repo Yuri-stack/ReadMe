@@ -14,7 +14,7 @@
     <p align="center">
         <em>
             (Coloque aqui as linguagens que construíram seu Projeto.)<br>
-            (Put here the languages ​​that built your Project.)<br><br>
+            (Put here the languages that built your Project.)<br><br>
         </em>
     <a href="https://www.linkedin.com/in/yuri-silva99/" target="_blank">
         <img src="https://img.shields.io/static/v1?label=Author&message=Yuri&color=00ba6d&style=for-the-badge&logo=LinkedIn" alt="Author: Yuri">
