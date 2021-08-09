@@ -121,16 +121,16 @@
   ---
 ### 1. Clone this repository
 ```
-$ git clone https://github.com/Yuri-stack/BlogPessoalGen.git
+git clone https://github.com/Yuri-stack/BlogPessoalGen.git
 ```
 ---
 ### 2. Install the dependencies
 ```
-$ npm install
+npm install
 ```
 or
 ```
-$ yarn
+yarn
 ```
 
 *Make sure your internet is stable, as this may take a while* 
@@ -154,7 +154,7 @@ If you have a ***Hosted BackEnd***, you'll need configure the Routes and Models 
 
 2. Run the project
 ```
-$ ng serve
+ng serve
 ```
 3. Now, open your browser and navigate to: http://localhost:4200
 
@@ -180,7 +180,9 @@ $ ng serve
 </p>
 
 Released in 2021.
-This project is under the [MIT license](https://github.com/Yuri-stack/BlogPessoalGen/blob/main/LICENSE).
+
+This project is under the [MIT license](https://github.com/Yuri-stack/ReadMe/blob/main/LICENSE).
+
 Made with love by [Yuri Oliveira](https://github.com/Yuri-stack) 🚀.
 
 ##  Links
