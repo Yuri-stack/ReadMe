@@ -114,7 +114,7 @@
 -   It is recommended that you have installed Google Chrome or Edge
 -   I recommend using VSCode as development IDE
 
-**Let's divide it into 2 steps.**
+**Let's divide it into 3 steps.**
 1. Clone this repository
 2. Install dependencies
 3. Initializing the BackEnd
