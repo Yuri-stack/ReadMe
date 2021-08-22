@@ -109,6 +109,7 @@
 - [Node.js](https://nodejs.org/en/)
 - [Npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
 - [Angular](https://angular.io/guide/setup-local)
+- [MySQL](https://dev.mysql.com/downloads/)
 
 **Recommendations**
 -   It is recommended that you have installed Google Chrome or Edge
