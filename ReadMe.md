@@ -122,7 +122,7 @@
   ---
 ### 1. Clone this repository
 ```
-git clone https://github.com/Yuri-stack/BlogPessoalGen.git
+git clone Link of the your Repository 
 ```
 ---
 ### 2. Install the dependencies
